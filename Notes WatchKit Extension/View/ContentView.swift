@@ -92,7 +92,19 @@ struct ContentView: View {
             
             Spacer()
             
-            Text("\(notes.count)")
+            List {
+                
+                ForEach(0..<notes.count, id: \.self) { item in
+                    HStack {
+                        Capsule()
+                            .frame(width: 4)
+                            .foregroundColor(.accentColor)
+                        Text(notes[item].text)
+                            .lineLimit(1)
+                            .padding(.leading, 5)
+                    }//: HStack
+                }
+            }//: List
         }//: VStack
         .navigationTitle("Notes")
         .onAppear {
