@@ -101,13 +101,15 @@ struct ContentView: View {
             if notes.count >= 1 {
                 List {
                     ForEach(0..<notes.count, id: \.self) { item in
-                        HStack {
-                            Capsule()
-                                .frame(width: 4)
-                                .foregroundColor(.accentColor)
-                            Text(notes[item].text)
-                                .lineLimit(1)
-                                .padding(.leading, 5)
+                        NavigationLink(destination: DetailView(note: notes[item], count: notes.count, index: item)) {
+                            HStack {
+                                Capsule()
+                                    .frame(width: 4)
+                                    .foregroundColor(.accentColor)
+                                Text(notes[item].text)
+                                    .lineLimit(1)
+                                    .padding(.leading, 5)
+                            }
                         }//: HStack
                     }//: Loop
                     .onDelete(perform: delete)
