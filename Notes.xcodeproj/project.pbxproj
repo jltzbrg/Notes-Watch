@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B114C302847BD49002DC6F1 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B114C2F2847BD49002DC6F1 /* CreditsView.swift */; };
+		1B114C332847BDF2002DC6F1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B114C322847BDF2002DC6F1 /* HeaderView.swift */; };
 		1BF02801284680C000911F7F /* Notes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BF02800284680C000911F7F /* Notes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1BF02806284680C200911F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF02805284680C200911F7F /* Assets.xcassets */; };
 		1BF0280C284680C200911F7F /* Notes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BF0280B284680C200911F7F /* Notes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -62,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B114C2F2847BD49002DC6F1 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		1B114C322847BDF2002DC6F1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1BF027FC284680C000911F7F /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF02800284680C000911F7F /* Notes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF02805284680C200911F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B114C312847BDE2002DC6F1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1B114C322847BDF2002DC6F1 /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		1BF027F5284680C000911F7F = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 		1BF0280F284680C200911F7F /* Notes WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1B114C312847BDE2002DC6F1 /* Components */,
 				1BF0282A2846837200911F7F /* Model */,
 				1BF028292846836C00911F7F /* View */,
 				1BF02812284680C200911F7F /* NotesApp.swift */,
@@ -141,6 +154,7 @@
 			children = (
 				1BF02810284680C200911F7F /* ContentView.swift */,
 				1BF0282D2846A83400911F7F /* DetailView.swift */,
+				1B114C2F2847BD49002DC6F1 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,8 +297,10 @@
 				1BF02811284680C200911F7F /* ContentView.swift in Sources */,
 				1BF02813284680C200911F7F /* NotesApp.swift in Sources */,
 				1BF02815284680C200911F7F /* ComplicationController.swift in Sources */,
+				1B114C302847BD49002DC6F1 /* CreditsView.swift in Sources */,
 				1BF0282E2846A83400911F7F /* DetailView.swift in Sources */,
 				1BF0282C2846838500911F7F /* Note.swift in Sources */,
+				1B114C332847BDF2002DC6F1 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
