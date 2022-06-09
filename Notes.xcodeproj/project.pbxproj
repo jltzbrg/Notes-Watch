@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B114C302847BD49002DC6F1 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B114C2F2847BD49002DC6F1 /* CreditsView.swift */; };
 		1B114C332847BDF2002DC6F1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B114C322847BDF2002DC6F1 /* HeaderView.swift */; };
+		1BD3B38928524D1000C2A580 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3B38828524D1000C2A580 /* SettingsView.swift */; };
 		1BF02801284680C000911F7F /* Notes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1BF02800284680C000911F7F /* Notes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1BF02806284680C200911F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF02805284680C200911F7F /* Assets.xcassets */; };
 		1BF0280C284680C200911F7F /* Notes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BF0280B284680C200911F7F /* Notes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -66,6 +67,7 @@
 /* Begin PBXFileReference section */
 		1B114C2F2847BD49002DC6F1 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		1B114C322847BDF2002DC6F1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1BD3B38828524D1000C2A580 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = SOURCE_ROOT; };
 		1BF027FC284680C000911F7F /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF02800284680C000911F7F /* Notes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF02805284680C200911F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		1BF028292846836C00911F7F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1BD3B38828524D1000C2A580 /* SettingsView.swift */,
 				1BF02810284680C200911F7F /* ContentView.swift */,
 				1BF0282D2846A83400911F7F /* DetailView.swift */,
 				1B114C2F2847BD49002DC6F1 /* CreditsView.swift */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF02811284680C200911F7F /* ContentView.swift in Sources */,
+				1BD3B38928524D1000C2A580 /* SettingsView.swift in Sources */,
 				1BF02813284680C200911F7F /* NotesApp.swift in Sources */,
 				1BF02815284680C200911F7F /* ComplicationController.swift in Sources */,
 				1B114C302847BD49002DC6F1 /* CreditsView.swift in Sources */,
